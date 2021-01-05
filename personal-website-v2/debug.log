@@ -1,0 +1,3 @@
+[0104/182326.574:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0105/122226.349:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0105/122226.365:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\stewa\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\37e2f22c-d0f0-4a87-ada5-30d0128f324f: The system cannot find the path specified. (0x3)

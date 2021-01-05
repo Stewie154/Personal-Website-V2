@@ -1,4 +1,5 @@
 import React, { useState }from 'react';
+import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import { GlobalStyle } from './GlobalStyles';
 
@@ -14,6 +15,7 @@ function App() {
     <div>
       <GlobalStyle/>
       <Navbar toggleMenu={toggleMenu} menuOpen={menuOpen} />
+      <Hero/>
     </div>
   );
 }
