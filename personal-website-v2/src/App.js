@@ -1,6 +1,7 @@
 import React, { useState }from 'react';
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
+import Projects from './Components/Projects/Projects';
 import { GlobalStyle } from './GlobalStyles';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <GlobalStyle/>
       <Navbar toggleMenu={toggleMenu} menuOpen={menuOpen} />
       <Hero/>
+      <Projects/>
     </div>
   );
 }

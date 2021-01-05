@@ -11,8 +11,9 @@ export const NavbarContainer = styled.nav`
     justify-content: space-around;
     align-items: center;
     background-color: #2B2C2C;
+    border-bottom: 2px solid whitesmoke;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         justify-content: space-between;
     }
 `
@@ -20,7 +21,7 @@ export const NavLogo = styled.h1`
     color: #fff;
     font-size: 2rem;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         font-size: 1.5rem;
         padding-left: 5vw;
     }
@@ -35,7 +36,7 @@ export const NavLinksContainer = styled.div`
     background: #2B2C2C;
     transition: 0.8s ease-out;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         position: fixed;
         z-index: 10;
         width: 100vw;
@@ -57,7 +58,7 @@ export const NavLink = styled.h2`
         font-size: 1.5rem;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         margin: 5vh;
     }
 `
@@ -74,7 +75,7 @@ export const MenuIcon = styled(FiMenu)`
         color: yellow;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         display: ${({ menuOpen }) => (menuOpen ? 'none' : 'block') }; 
     }
 `
