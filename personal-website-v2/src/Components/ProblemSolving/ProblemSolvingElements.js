@@ -26,6 +26,7 @@ export const Problem = styled.div`
     justify-content: center;
     align-items: center;
     width: 100vw;
+    min-height: 40vh;
     margin: 2vh 2vw;
     border-bottom: 1px solid #fff;
 
