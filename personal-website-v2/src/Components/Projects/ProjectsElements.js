@@ -14,6 +14,10 @@ export const ProjectsHeading = styled.h1`
     margin-top: 3vh;
     font-size: 4rem;
     text-decoration: underline;
+
+    @media screen and (max-width: 570px) {
+        font-size: 3rem;
+    }
 `
 export const ProjectsDisplayContainer = styled.div`
     display: flex;

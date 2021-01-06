@@ -3,7 +3,8 @@ import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import { GlobalStyle } from './GlobalStyles';
-import {projectsData} from '../src/Components/Projects/Data';
+import  {projectsData } from '../src/Components/Projects/Data';
+import { problemSolvingData } from '../src/Components/ProblemSolving/Data';
 import ProblemSolving from './Components/ProblemSolving/ProblemSolving';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Navbar toggleMenu={toggleMenu} menuOpen={menuOpen} />
       <Hero/>
       <Projects projectsData={projectsData} />
-      <ProblemSolving/>
+      <ProblemSolving problemSolvingData={problemSolvingData} />
     </div>
   );
 }
