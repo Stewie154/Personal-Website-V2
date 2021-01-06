@@ -54,10 +54,11 @@ export const ProjectImg = styled.img`
     &:hover {
         width: 95%;
         max-width: 100%;
+        opacity: 0.8;
     }
 `
 export const ProjectTitle = styled.h2`
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     color: #fff;
     margin: 1vh 1vw;
@@ -70,8 +71,8 @@ export const ProjectDesc = styled.p`
     font-size: 1.25rem;
 `
 export const ProjectCodeBtn = styled.button`
-    width: 40%;
-    height: 20%;
+    width: 60%;
+    height: 10%;
     padding: 1vw 1vh;
     margin: 2vh 2vw;
     background-color: #fff;
@@ -85,13 +86,13 @@ export const ProjectCodeBtn = styled.button`
     &:hover {
         background-color: yellow;
         color: black;
-        width: 50%;
-        height: 25%;
+        width: 75%;
+        height: 15%;
         font-size: 2.5rem;
     }
 
     @media screen and (max-width: 768px) {
-        width: 60%;
+        width: 70%;
         height: 10%;
     }
 `

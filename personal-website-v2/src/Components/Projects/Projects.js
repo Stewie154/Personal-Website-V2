@@ -1,46 +1,26 @@
 import React from 'react';
 import { ProjectsContainer, ProjectsHeading, ProjectsDisplayContainer, Project, ProjectImg, ProjectTitle, ProjectDesc, ProjectCodeBtn } from './ProjectsElements';
-import {projectsData} from './Data';
-const Projects = () => {
+
+const Projects = ({ projectsData }) => {
     return (
         <div>
             <ProjectsContainer>
                 <ProjectsHeading>Projects</ProjectsHeading>
                 <ProjectsDisplayContainer>
-                    <Project>
-                        <ProjectImg src={projectsData[0].screenshot}/>
-                        <ProjectTitle>{projectsData[0].name}</ProjectTitle>
-                        <ProjectDesc>{projectsData[0].desc}</ProjectDesc>
-                        <ProjectCodeBtn>{projectsData[0].viewCode}</ProjectCodeBtn>
-                    </Project>
-                    <Project>
-                        <ProjectImg src={projectsData[0].screenshot}/>
-                        <ProjectTitle>{projectsData[0].name}</ProjectTitle>
-                        <ProjectDesc>{projectsData[0].desc}</ProjectDesc>
-                        <ProjectCodeBtn>{projectsData[0].viewCode}</ProjectCodeBtn>
-                    </Project>
-                    <Project>
-                        <ProjectImg src={projectsData[0].screenshot}/>
-                        <ProjectTitle>{projectsData[0].name}</ProjectTitle>
-                        <ProjectDesc>{projectsData[0].desc}</ProjectDesc>
-                        <ProjectCodeBtn>{projectsData[0].viewCode}</ProjectCodeBtn>
-                    </Project>
-                    <Project>
-                        <ProjectImg src={projectsData[0].screenshot}/>
-                        <ProjectTitle>{projectsData[0].name}</ProjectTitle>
-                        <ProjectDesc>{projectsData[0].desc}</ProjectDesc>
-                        <ProjectCodeBtn>{projectsData[0].viewCode}</ProjectCodeBtn>
-                    </Project>
-                    <Project>
-                        <ProjectImg src={projectsData[0].screenshot}/>
-                        <ProjectTitle>{projectsData[0].name}</ProjectTitle>
-                        <ProjectDesc>{projectsData[0].desc}</ProjectDesc>
-                        <ProjectCodeBtn>{projectsData[0].viewCode}</ProjectCodeBtn>
-                    </Project>
+                {projectsData.map( ( project, index ) => {
+                        return (
+                            <Project key={index}>
+                                <ProjectImg src={project.screenshot}/>
+                                <ProjectTitle>{project.name}</ProjectTitle>
+                                <ProjectDesc>{project.desc}</ProjectDesc>
+                                <ProjectCodeBtn>{project.viewCode}</ProjectCodeBtn>
+                            </Project>
+                        )
+                        })}
                 </ProjectsDisplayContainer>
             </ProjectsContainer>
         </div>
     )
-}
+}   
 
 export default Projects;

@@ -3,6 +3,8 @@ import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import { GlobalStyle } from './GlobalStyles';
+import {projectsData} from '../src/Components/Projects/Data';
+import ProblemSolving from './Components/ProblemSolving/ProblemSolving';
 
 function App() {
 
@@ -17,7 +19,8 @@ function App() {
       <GlobalStyle/>
       <Navbar toggleMenu={toggleMenu} menuOpen={menuOpen} />
       <Hero/>
-      <Projects/>
+      <Projects projectsData={projectsData} />
+      <ProblemSolving/>
     </div>
   );
 }
