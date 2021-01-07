@@ -6,6 +6,7 @@ import { GlobalStyle } from './GlobalStyles';
 import  {projectsData } from '../src/Components/Projects/Data';
 import { problemSolvingData } from '../src/Components/ProblemSolving/Data';
 import ProblemSolving from './Components/ProblemSolving/ProblemSolving';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Hero/>
       <Projects projectsData={projectsData} />
       <ProblemSolving problemSolvingData={problemSolvingData} />
+      <Footer/>
     </div>
   );
 }
