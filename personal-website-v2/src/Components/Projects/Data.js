@@ -13,7 +13,7 @@ export const projectsData = [
         screenshot: pizza,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/Projects/REACT-PIZZA-WEBSITE/react-pizza-website/",
         gitHubLink: "https://github.com/Stewie154/React-Pizza-Website"
     },
     {
@@ -22,7 +22,7 @@ export const projectsData = [
         screenshot: toDoList,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/Projects/REACT-TO-DO-LIST/to-do-list/",
         gitHubLink: "https://github.com/Stewie154/React-To-Do-List"
     },
     {
@@ -31,7 +31,7 @@ export const projectsData = [
         screenshot: copyCat,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/Projects/Copy-Cat/copy-cat/",
         gitHubLink: "https://github.com/Stewie154/Copy-Cat"
     },
     {
@@ -40,7 +40,7 @@ export const projectsData = [
         screenshot: quiz,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/Projects/Simpsons-Quiz/index.html",
         gitHubLink: "https://github.com/Stewie154/Simpsons-Quiz"
     },
     {
@@ -49,7 +49,7 @@ export const projectsData = [
         screenshot: form,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/Projects/PHP-Form-Vaildation-/index.php",
         gitHubLink: "https://github.com/Stewie154/PHP-Form-Vaildation-"
     },
     {
@@ -58,7 +58,7 @@ export const projectsData = [
         screenshot: portfolio,
         alt: "Project Preview.",
         viewCode: "View Code",
-        projectLink: "",
+        projectLink: "https://www.stewartmcfarlane.me/",
         gitHubLink: "https://github.com/Stewie154/Personal-Website-V2"
     }
 ]

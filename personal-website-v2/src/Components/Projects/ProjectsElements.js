@@ -74,13 +74,15 @@ export const ProjectDesc = styled.p`
     margin: 1vh 1vw;
     font-size: 1.25rem;
 `
-export const ProjectCodeBtn = styled.button`
+export const ProjectCodeBtn = styled.a`
     width: 60%;
     height: 10%;
     padding: 1vw 1vh;
     margin: 2vh 2vw;
     background-color: #fff;
     font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
     color: #2B2C2C;
     border: 1px solid black;
     border-radius: 5px;

@@ -10,10 +10,24 @@ const Projects = ({ projectsData }) => {
                 {projectsData.map( ( project, index ) => {
                         return (
                             <Project key={index}>
-                                <ProjectImg src={project.screenshot}/>
+                                <a 
+                                    href={project.projectLink} 
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    aria-label={project.name}
+                                >
+                                    <ProjectImg src={project.screenshot}/>
+                                </a>
                                 <ProjectTitle>{project.name}</ProjectTitle>
                                 <ProjectDesc>{project.desc}</ProjectDesc>
-                                <ProjectCodeBtn>{project.viewCode}</ProjectCodeBtn>
+                                <ProjectCodeBtn
+                                    href={project.gitHubLink} 
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    aria-label={project.viewCode}
+                                >
+                                    {project.viewCode}
+                                </ProjectCodeBtn>
                             </Project>
                         )
                         })}
