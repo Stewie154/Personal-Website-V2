@@ -115,7 +115,7 @@ export const SolutionScreenshotContainer = styled.div`
 export const SolutionScreenshot = styled.img`
     width: 90%;
     max-width: 100%;
-    box-shadow: 0 0 10px 5px;
+    border: 1px solid white;
     margin: 2vh 2vw;
     transition: 0.2s ease-in-out;
 
