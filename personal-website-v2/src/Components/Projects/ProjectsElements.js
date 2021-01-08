@@ -7,10 +7,10 @@ export const ProjectsContainer = styled.div`
     align-items: center; 
     width: 100vw;
     min-height: 90vh;
-    background-color: #2B2C2C;
+    background-color: #00B1D2FF;
 `
 export const ProjectsHeading = styled.h1`
-    color: white;
+    color: #FDDB27FF;
     margin-top: 3vh;
     font-size: 4rem;
     text-decoration: underline;

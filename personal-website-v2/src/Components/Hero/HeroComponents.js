@@ -19,10 +19,10 @@ export const HeroContent = styled.div`
     align-items: center;
     width: 100%;
     height: 30%;
-    background-color: #2B2C2C;
+    background-color: #00B1D2FF;
 `
 export const HeroH1 = styled.h1`
-    color: #fff;
+    color: #FDDB27FF;
     font-size: 5rem;
     text-decoration: underline;
     padding: 1vh 2vw;

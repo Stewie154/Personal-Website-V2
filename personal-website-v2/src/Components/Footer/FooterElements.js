@@ -8,12 +8,12 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #303131;
+    background-color: #00B1D2FF;
 `
 export const FooterHeading = styled.h1`
     margin-top: 2vh;
     font-size: 4rem;
-    color: #fff;
+    color: #FDDB27FF;
     text-decoration: underline;
     text-align: center;
 
@@ -28,7 +28,7 @@ export const FooterDisplayContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #2B2C2C;
+    background-color: #00c3e6;
 
     @media screen and (max-width: 900px) {
         min-height: 10vh;
