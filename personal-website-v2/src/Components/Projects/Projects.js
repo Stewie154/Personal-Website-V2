@@ -3,7 +3,7 @@ import { ProjectsContainer, ProjectsHeading, ProjectsDisplayContainer, Project, 
 
 const Projects = ({ projectsData }) => {
     return (
-        <div>
+        <div id="projects">
             <ProjectsContainer>
                 <ProjectsHeading>Projects</ProjectsHeading>
                 <ProjectsDisplayContainer>

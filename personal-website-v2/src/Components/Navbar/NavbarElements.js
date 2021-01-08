@@ -34,6 +34,7 @@ export const NavLinksContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     transition: 0.8s ease-out;
+    background-color: #00B1D2FF;
 
     @media screen and (max-width: 900px) {
         position: fixed;

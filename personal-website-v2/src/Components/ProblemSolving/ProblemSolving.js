@@ -18,7 +18,7 @@ const ProblemSolving = ({ problemSolvingData }) => {
     }
 
     return (
-        <ProblemSolvingWrapper>
+        <ProblemSolvingWrapper id="problem-solving">
             <ProblemSolvingHeading>Problem-Solving</ProblemSolvingHeading>
             {problems.map( (problem, index) => {
                 return (

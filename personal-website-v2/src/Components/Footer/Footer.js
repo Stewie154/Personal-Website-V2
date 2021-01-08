@@ -6,7 +6,7 @@ import { SiCodecademy } from 'react-icons/si';
 
 const Footer = () => {
     return (
-        <FooterContainer>
+        <FooterContainer id="contact">
             <FooterHeading>Contact</FooterHeading>
             <FooterDisplayContainer>
                 <FooterEmail>stewartmcfarlane1542@outlook.com</FooterEmail>
