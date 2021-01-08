@@ -7,10 +7,10 @@ export const ProblemSolvingWrapper = styled.div`
     align-items: center;
     width: 100vw;
     min-height: 90vh;
-    background-color: #303131;
+    background-color: #00B1D2FF;
 `
 export const ProblemSolvingHeading = styled.h1`
-    color: #fff;
+    color: #FDDB27FF;
     margin-top: 3vh;
     font-size: 4rem;
     text-decoration: underline; 

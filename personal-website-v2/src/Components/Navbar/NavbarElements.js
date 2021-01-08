@@ -10,7 +10,7 @@ export const NavbarContainer = styled.nav`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #2B2C2C;
+    background-color: #00B1D2FF;
     border-bottom: 2px solid whitesmoke;
 
     @media screen and (max-width: 900px) {
@@ -18,7 +18,7 @@ export const NavbarContainer = styled.nav`
     }
 `
 export const NavLogo = styled.h1`
-    color: #fff;
+    color: #FDDB27FF;
     font-size: 2rem;
 
     @media screen and (max-width: 900px) {
@@ -33,7 +33,6 @@ export const NavLinksContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #2B2C2C;
     transition: 0.8s ease-out;
 
     @media screen and (max-width: 900px) {
@@ -65,8 +64,8 @@ export const NavLink = styled.h2`
 export const MenuIcon = styled(FiMenu)`
     font-size: 2rem;
     display: none;
-    margin-right: 5vw;;
-    color: #fff;
+    margin-right: 5vw;
+    color: #FDDB27FF;
     cursor: pointer;
     transition: 0.2s ease-in-out; 
     z-index: 1000;

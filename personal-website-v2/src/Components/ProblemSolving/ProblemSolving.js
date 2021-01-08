@@ -7,8 +7,7 @@ const ProblemSolving = ({ problemSolvingData }) => {
 
     const toggleSolution = (index) => {
         // console.log(problems); (check showingSolution)
-        
-        
+
         setProblems(prevState => ( 
             prevState.map((problem, i) => {
                 return i == index ? { ...problem, showingSolution: !problem.showingSolution } : problem
@@ -16,7 +15,6 @@ const ProblemSolving = ({ problemSolvingData }) => {
         ));
         
         // console.log(problems); (used to see if showingSolution had changed)
-       
     }
 
     return (
