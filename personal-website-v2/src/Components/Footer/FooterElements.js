@@ -28,7 +28,7 @@ export const FooterDisplayContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #00c3e6;
+    background-color: #2B2C2C;
 
     @media screen and (max-width: 900px) {
         min-height: 10vh;
