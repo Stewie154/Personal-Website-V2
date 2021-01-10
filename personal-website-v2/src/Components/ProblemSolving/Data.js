@@ -11,8 +11,8 @@ export const problemSolvingData = [
         solution: solution1,
         blank: '',
         showingSolution: false,
-        viewSolutionBtn: 'View Solution',
-        hideSolutionBtn: 'Hide Solution'
+        viewSolutionBtn: 'View My Solution',
+        hideSolutionBtn: 'Hide My Solution'
     },
     {
         number: '2.',
