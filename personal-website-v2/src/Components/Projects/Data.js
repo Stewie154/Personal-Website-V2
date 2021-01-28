@@ -1,12 +1,21 @@
 import pizza from '../../Images/The-Hearty-Slice-Screenshot.JPG';
 import toDoList from '../../Images/React-To-Do-List-Screenshot.JPG';
 import copyCat from '../../Images/Copy-Cat-Screenshot.JPG';
-import quiz from '../../Images/Quiz screenshot (ipad-horizontal).jpg';
+import McB from '../../Images/mcfarlanes-coach-builders-screenshot.JPG';
 import form from '../../Images/PHP-Form-Screenshot (ipad horizontal).JPG'
 import portfolio from '../../Images/Portfolio-Website-Screenshot.JPG';
 
 
 export const projectsData = [
+    {
+        name: "McFarlane's Coach Builders",
+        desc: "An official business website for McFarlane's Coach Builders. Built with React & Sass.",
+        screenshot: McB,
+        alt: "Project Preview.",
+        viewCode: "View Code",
+        projectLink: "http://www.mcfarlanescoachbuilders.com/",
+        gitHubLink: "https://github.com/Stewie154/mcfarlanes-coach-builders"
+    },
     {
         name: "The Hearty Slice (React)",
         desc: "An e-commerce pizza website built with react, using styled components.",
@@ -33,15 +42,6 @@ export const projectsData = [
         viewCode: "View Code",
         projectLink: "https://www.stewartmcfarlane.me/Projects/Copy-Cat/copy-cat/",
         gitHubLink: "https://github.com/Stewie154/Copy-Cat"
-    },
-    {
-        name: "Multi-Choice Quiz",
-        desc: "A 15 question multiple-choice quiz built using HTML, CSS and JavsScript. See how well you know The Simpsons!",
-        screenshot: quiz,
-        alt: "Project Preview.",
-        viewCode: "View Code",
-        projectLink: "https://www.stewartmcfarlane.me/Projects/Simpsons-Quiz/index.html",
-        gitHubLink: "https://github.com/Stewie154/Simpsons-Quiz"
     },
     {
         name: "PHP-Form-Validation",

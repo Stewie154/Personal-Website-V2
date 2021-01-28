@@ -7,17 +7,17 @@ const Navbar = ({menuOpen, toggleMenu}) => {
         <NavbarContainer>
             <NavLogo>Stewart Mcfarlane</NavLogo>
             <NavLinksContainer menuOpen={menuOpen}>
-                <Link to="about" smooth={true} duration={750}>
-                    <NavLink>About</NavLink>
+                <Link to="about" smooth={true} duration={750} offset={-80}>
+                    <NavLink onClick={toggleMenu}>About</NavLink>
                 </Link>
-                <Link to="projects" smooth={true} duration={750}>
-                    <NavLink>Projects</NavLink>
+                <Link to="projects" smooth={true} duration={750} offset={-80}>
+                    <NavLink onClick={toggleMenu}>Projects</NavLink>
                 </Link>
-                <Link to="problem-solving" smooth={true} duration={750}>
-                    <NavLink>Probelm Solving</NavLink>  
+                <Link to="problem-solving" smooth={true} duration={750} offset={-80}>
+                    <NavLink onClick={toggleMenu}>Probelm Solving</NavLink>  
                 </Link>
-                <Link to="contact" smooth={true} duration={750}>
-                    <NavLink>Contact</NavLink>
+                <Link to="contact" smooth={true} duration={750} offset={-80}>
+                    <NavLink onClick={toggleMenu}>Contact</NavLink>
                 </Link>
             </NavLinksContainer>
             <MenuIcon onClick={toggleMenu}/>
