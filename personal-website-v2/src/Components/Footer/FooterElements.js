@@ -28,7 +28,7 @@ export const FooterDisplayContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #2B2C2C;
+    background-color: #005566;
 
     @media screen and (max-width: 900px) {
         min-height: 10vh;
@@ -37,9 +37,16 @@ export const FooterDisplayContainer = styled.div`
     }
 `
 
-export const FooterEmail = styled.h1`
+export const FooterEmail = styled.a`
+    font-size: 2rem;
     color: white;
     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover {
+        color: yellow;
+    }
     @media screen and (max-width: 900px){
         margin-top: 2vh;
     }

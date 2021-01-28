@@ -41,7 +41,7 @@ export const NavLinksContainer = styled.div`
         position: fixed;
         z-index: 10;
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
         top: 0;
         right: ${({ menuOpen }) => (menuOpen ? '0' : '-1000px') };
         flex-direction: column;
